@@ -1,0 +1,42 @@
+[root@ansible ~]# history
+    1  yum install python3
+    2  yum install pip3
+    3  yum install pip
+    4  yum install python-dlevel
+    5  python3
+    6  yum install python-dlevel
+    7  sudo yum install python3-devel -y
+    8  vi /etc/ansible/hosts
+    9  ssh-keygen
+   10  cat /etc/ansible/hosts
+   11  ssh-copy-id root@172.31.39.10
+   12  cat .ssh/id_rsa.pub
+   13  ssh 172.31.39.10
+   14  ssh root@172.31.39.10
+   15  cat /etc/ansible/hosts
+   16  ssh-copy-id root@172.31.37.97
+   17  ssh-copy-id root@172.31.44.184
+   18  ssh-copy-id root@172.31.33.154
+   19  ssh root@172.31.44.184
+   20  ansible all -a "yum install git -y"
+   21  git -v
+   22  git -version
+   23  git --version
+   24  ansible dev -a "yum install maven -y"
+   25  ansible test -a "yum install maven -y"
+   26  ansible all -a "touch file1"
+   27  ansible all -a "yum install apache -y"
+   28  ansible all -a "yum install httpd -y"
+   29  ansible all -a "systemctl start httpd"
+   30  ansible all -a "systemctl status httpd"
+   31  ansible all -a "mvn --version"
+   32  ansible all -a "useradd jahnavi"
+   33  ansible all -a "cat /etc/passwd"
+   34  ansible all --list-hosts
+   35  ansible dev --list-hosts
+   36  ansible test --list-hosts
+   37  ansible test[1] --list-hosts
+   38  ansible all[-1] --list-hosts
+   39  ansible all[0] --list-hosts
+   40  ansible all[0:2] --list-hosts
+   41  history
